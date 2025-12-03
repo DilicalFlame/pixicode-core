@@ -48,22 +48,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a23eb6b1614318a8071c9b2521f36b424b2c83db5eb3a0fead4a6c0809af6e61"
 
 [[package]]
-name = "app"
-version = "0.1.0"
-dependencies = [
- "app_dirs2",
- "chrono",
- "fern",
- "log",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-fs",
- "tauri-plugin-opener",
-]
-
-[[package]]
 name = "app_dirs2"
 version = "2.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2656,6 +2640,22 @@ dependencies = [
  "atomic-waker",
  "fastrand",
  "futures-io",
+]
+
+[[package]]
+name = "pixicode"
+version = "0.1.0"
+dependencies = [
+ "app_dirs2",
+ "chrono",
+ "fern",
+ "log",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-fs",
+ "tauri-plugin-opener",
 ]
 
 [[package]]
