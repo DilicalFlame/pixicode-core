@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import { listen } from "@tauri-apps/api/event";
 import { getCurrentWindow } from "@tauri-apps/api/window";
+import { useEffect, useState } from "react";
 
 export function useWindowLock() {
     const [isLocked, setIsLocked] = useState(false);
@@ -9,14 +9,14 @@ export function useWindowLock() {
         let unlistenFn: (() => void) | undefined;
 
         const setupListener = async () => {
-            const unlisten = await listen<{ windowLabel: string; locked: boolean }>(
-                "lock-window-ui",
-                (event) => {
-                    if (event.payload.windowLabel === getCurrentWindow().label) {
-                        setIsLocked(event.payload.locked);
-                    }
-                },
-            );
+            const unlisten = await listen<{
+                windowLabel: string;
+                locked: boolean;
+            }>("lock-window-ui", (event) => {
+                if (event.payload.windowLabel === getCurrentWindow().label) {
+                    setIsLocked(event.payload.locked);
+                }
+            });
             unlistenFn = unlisten;
         };
 

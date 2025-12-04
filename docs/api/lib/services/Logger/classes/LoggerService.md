@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [lib/services/Logger.ts:5](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L5)
+Defined in: [lib/services/LoggerService.ts:5](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L5)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [lib/services/Logger.ts:5](https://github.com/DilicalFlame/tauri-nex
 
 > **new LoggerService**(): `LoggerService`
 
-Defined in: [lib/services/Logger.ts:9](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L9)
+Defined in: [lib/services/LoggerService.ts:9](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L9)
 
 #### Returns
 
@@ -22,7 +22,7 @@ Defined in: [lib/services/Logger.ts:9](https://github.com/DilicalFlame/tauri-nex
 
 > **debug**(`message`, `context?`): `Promise`\<`void`\>
 
-Defined in: [lib/services/Logger.ts:113](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L113)
+Defined in: [lib/services/LoggerService.ts:113](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L113)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [lib/services/Logger.ts:113](https://github.com/DilicalFlame/tauri-n
 
 > **error**(`message`, `context?`): `Promise`\<`void`\>
 
-Defined in: [lib/services/Logger.ts:109](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L109)
+Defined in: [lib/services/LoggerService.ts:109](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L109)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [lib/services/Logger.ts:109](https://github.com/DilicalFlame/tauri-n
 
 > **info**(`message`, `context?`): `Promise`\<`void`\>
 
-Defined in: [lib/services/Logger.ts:101](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L101)
+Defined in: [lib/services/LoggerService.ts:101](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L101)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [lib/services/Logger.ts:101](https://github.com/DilicalFlame/tauri-n
 
 > **trace**(`message`, `context?`): `Promise`\<`void`\>
 
-Defined in: [lib/services/Logger.ts:117](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L117)
+Defined in: [lib/services/LoggerService.ts:117](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L117)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [lib/services/Logger.ts:117](https://github.com/DilicalFlame/tauri-n
 
 > **warn**(`message`, `context?`): `Promise`\<`void`\>
 
-Defined in: [lib/services/Logger.ts:105](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/Logger.ts#L105)
+Defined in: [lib/services/LoggerService.ts:105](https://github.com/DilicalFlame/tauri-next-shadcn-boilerplate.ts/blob/3e5737a308cfa5d09ede14cb902f0f1e7d2b94ca/lib/services/LoggerService.ts#L105)
 
 #### Parameters
 

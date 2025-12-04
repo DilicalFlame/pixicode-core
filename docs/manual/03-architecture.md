@@ -12,11 +12,11 @@ The project is structured to separate concerns between the Frontend (Next.js) an
 .
 ├── app/                 # Next.js App Router pages and layouts
 ├── components/          # React components (Shadcn UI & custom)
-├── constants/           # Global constants (e.g., Logger settings)
+├── constants/           # Global constants (e.g., LoggerService settings)
 ├── docs/                # This documentation site
 ├── hooks/               # Custom React hooks
 ├── lib/                 # Utility functions and Services
-│   ├── services/        # Core application services (Logger, Tauri, Window)
+│   ├── services/        # Core application services (LoggerService, Tauri, Window)
 │   └── utils.ts         # Helper functions
 ├── public/              # Static assets
 ├── scripts/             # Build and maintenance scripts
@@ -36,7 +36,7 @@ Contains the application routes. We use the Next.js App Router.
 
 ### `lib/services/`
 This is where the bridge between Frontend and Backend happens.
-- `Logger.ts`: Handles logging to both console and file (via Rust).
+- `LoggerService.ts`: Handles logging to both console and file (via Rust).
 - `TauriService.ts`: A singleton to invoke Rust commands.
 - `WindowManager.ts`: Manages window state.
 

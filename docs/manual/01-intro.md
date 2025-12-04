@@ -20,7 +20,7 @@ This template combines the best tools in the ecosystem:
 
 ## Key Features
 
-- **Pre-configured Logger**: A robust logging system that bridges Frontend and Backend logs.
+- **Pre-configured LoggerService**: A robust logging system that bridges Frontend and Backend logs.
 - **Window Management**: Utilities to handle window state and locking.
 - **Tauri Service**: A clean abstraction layer for invoking Rust commands.
 - **Professional Docs**: This documentation site itself is part of the template!

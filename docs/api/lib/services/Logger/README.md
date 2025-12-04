@@ -8,4 +8,4 @@
 
 ## Variables
 
-- [Logger](variables/Logger.md)
+- [LoggerService](variables/LoggerService.md)

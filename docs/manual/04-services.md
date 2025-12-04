@@ -6,25 +6,25 @@ sidebar_position: 4
 
 The application uses a Service-based architecture in the frontend to manage complex logic and communication with the backend.
 
-## Logger Service
+## LoggerService Service
 
-The `Logger` service (`lib/services/Logger.ts`) provides a unified way to log messages. It logs to the browser console in development and sends logs to the Rust backend for file storage.
+The `LoggerService` service (`lib/services/LoggerService.ts`) provides a unified way to log messages. It logs to the browser console in development and sends logs to the Rust backend for file storage.
 
 ### Usage
 
 ```typescript
-import { Logger } from '@/lib/services/Logger';
+import { LoggerService } from '@/lib/services/LoggerService';
 
 // Log an info message
-await Logger.info('Application started');
+await LoggerService.info('Application started');
 
 // Log an error with context
-await Logger.error('Failed to fetch data', 'DataFetcher');
+await LoggerService.error('Failed to fetch data', 'DataFetcher');
 ```
 
 ### Configuration
 
-Logger settings are defined in `constants/logger_settings.ts`. You can configure:
+LoggerService settings are defined in `constants/logger_settings.ts`. You can configure:
 - Log file path
 - Log levels (Console vs File)
 - Max file size
